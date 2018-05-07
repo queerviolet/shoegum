@@ -9,7 +9,7 @@ const httpResponseHandler = require('website-scraper-phantom')
 const cli = require('commander')
   .version(package.version)
   .option('-d, --depth <number>', 'max recursive depth', x => +x, 5)
-  .option('-o, --output <path>', 'output dir', path => join(process.cwd(), path), '')
+  .option('-o, --output <path>', 'output dir', String, process.cwd())
 
 const CHROME_UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3403.0 Safari/537.36'
 
