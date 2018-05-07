@@ -1,0 +1,17 @@
+{
+  "name": "shoegum",
+  "version": "0.0.1",
+  "bin": "index.js",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "website-scraper": "^3.3.2",
+    "website-scraper-phantom": "^0.1.0"
+  }
+}
